@@ -29,7 +29,7 @@ System.out.println("project path " +projectpath);
   // System.setProperty("webdriver.chrome.driver", projectpath+"/src/test/resources/drivers/chromedriver.exe");
    
    System.setProperty("webdriver.edge.driver", projectpath+"/src/test/resources/drivers/msedgedriver.exe");
-//driver = new ChromeDriver();
+////driver = new ChromeDriver();
     driver = new EdgeDriver();
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.manage().timeouts().pageLoadTimeout(10 , TimeUnit.SECONDS);
