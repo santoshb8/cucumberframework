@@ -1,4 +1,5 @@
 pipeline {
+  
 environment {
 registry = "https://hub.docker.com/repository/docker/bsk410/cucumberdocker"
 registryCredential = 'bsk410'
