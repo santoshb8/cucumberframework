@@ -7,10 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.WebElement;
 //import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.*;
+//import org.openqa.selenium.edge.*;
 //import org.openqa.selenium.support.ui.ExpectedConditions;
 //import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,12 +27,14 @@ public void browser_is_open2() {
 
 
    System.out.print("inside");
-   String projectpath = System.getProperty("user.dir");
-System.out.println("project path " +projectpath);
-  System.setProperty("webdriver.chrome.driver", projectpath+"/src/test/resources/drivers/chromedriver.exe");
+  // String projectpath = System.getProperty("user.dir");
+//System.out.println("project path " +projectpath);
+  //System.setProperty("webdriver.chrome.driver", projectpath+"/src/test/resources/drivers/chromedriver.exe");
    
   //// System.setProperty("webdriver.edge.driver", projectpath+"/src/test/resources/drivers/msedgedriver.exe");
-driver = new ChromeDriver();
+WebDriverManager.chromedriver().setup();
+   
+   driver = new ChromeDriver();
    //// driver = new EdgeDriver();
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.manage().timeouts().pageLoadTimeout(10 , TimeUnit.SECONDS);
