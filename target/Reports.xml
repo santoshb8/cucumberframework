@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="81.38">
+    <testcase classname="google search feature" name="google search feature" time="20.087">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "standard_user" and "secret_sauce"............passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature 2" time="10.172">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "locked_out_user" and "secret_sauce"..........passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature 3" time="12.267">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "problem_user" and "secret_sauce".............passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature 4" time="8.517">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "performance_glitch_user" and "secret_sauce"..passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature" time="10.957">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "standard_user" and "secret_sauce"............passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature" time="8.061">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "standard_user" and "secret_sauce"............passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="google search feature" name="google search feature 2" time="10.84">
+        <system-out><![CDATA[Given browser is open2......................................................passed
+And user is on saucelabs page...............................................passed
+When text in login creds with "locked_out_user" and "secret_sauce"..........passed
+And hits submit.............................................................passed
+Then user is navigated with logincreds......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
