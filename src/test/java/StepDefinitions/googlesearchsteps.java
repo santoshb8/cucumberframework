@@ -24,9 +24,8 @@ public class googlesearchsteps {
 @SuppressWarnings("deprecation")
 @Given("browser is open")
 public void browser_is_open() {
-
-
-   System.out.print("inside");
+//update
+  System.out.print("inside");
   // String projectpath = System.getProperty("user.dir");
 //System.out.println("project path " +projectpath);
   //System.setProperty("webdriver.chrome.driver", projectpath+"/src/test/resources/drivers/chromedriver.exe");

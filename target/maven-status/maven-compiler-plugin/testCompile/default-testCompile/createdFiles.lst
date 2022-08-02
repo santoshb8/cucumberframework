@@ -1,0 +1,3 @@
+pages\loginpage.class
+StepDefinitions\googlesearchsteps.class
+StepDefinitions\TestRunner.class
