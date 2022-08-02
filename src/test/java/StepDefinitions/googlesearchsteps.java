@@ -22,8 +22,8 @@ public class googlesearchsteps {
 	
 	
 @SuppressWarnings("deprecation")
-@Given("browser is open2")
-public void browser_is_open2() {
+@Given("browser is open")
+public void browser_is_open() {
 
 
    System.out.print("inside");
@@ -40,8 +40,8 @@ driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.manage().timeouts().pageLoadTimeout(10 , TimeUnit.SECONDS);
 }
 
-@Given("user is on saucelabs page")
-public void user_is_on_saucelabs_page() {
+@Given("user is on saucelabs pag")
+public void user_is_on_saucelabs_pag() {
 	System.out.print("inside");
 	driver.navigate().to("https://www.saucedemo.com/");
 }
